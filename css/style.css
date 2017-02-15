@@ -12,6 +12,7 @@ font-family: 'Lato', sans-serif;
 }
 p{
   font-size: 16px;
+  text-align:justify;
 }
 #aboutme, #int {
   padding-top:40px
@@ -23,7 +24,7 @@ p{
 .prskills{
   padding-top:30px
 }
-h2, p, h3{
+h2, h3{
   text-align:center;
 }
 h1,h2{

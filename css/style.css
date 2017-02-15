@@ -1,0 +1,92 @@
+*{
+font-family: 'Lato', sans-serif;
+}
+#abt{padding-top:50px;height:600px;}
+#pry {padding-top:50px;height:600px; }
+#skills {padding-top:50px;height:600px;}
+#cont{padding-top:50px;height:600px;}
+
+.skillsImg{
+  height:110px;
+   width:110px;
+}
+p{
+  font-size: 16px;
+}
+#aboutme, #int {
+  padding-top:40px
+}
+#habt{
+  padding-top:30px
+}
+
+.prskills{
+  padding-top:30px
+}
+h2, p, h3{
+  text-align:center;
+}
+h1,h2{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.imgPry{
+  height:260px;
+  width:260px;
+  margin: 0 auto;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.imgPry:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.tag {
+    border: 1px solid #ddd;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-right: 5px;
+    text-align:center;
+}
+.toolsImg{
+  height:90px;
+  width:90px;
+}
+.edu{
+  padding-top: 40px;
+}
+.contImg{
+  height:100px;
+  width:100px;
+  float:left;
+}
+.contL{
+  margin-left: 30px;
+}
